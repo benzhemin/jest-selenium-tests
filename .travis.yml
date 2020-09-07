@@ -2,21 +2,15 @@ dist: bionic
 
 language: node_js
 node_js:
-  - node
   - "lts/*"
 
-before_install:
-  - sudo apt-get update
-  - npm i -g npm@latest
-
 addons:
-  apt:
-    sources:
-      - google-chrome
-    packages:
-      -google-chrome-stable
+  chrome: stable
 
-install: npm ci
+before_install:
+  - google-chrome-stable --headless --disable-gpu
+
+install: npm test && npm ci
 
 script: npm test
 

@@ -1,5 +1,5 @@
-import {By} from "selenium-webdriver";
-import {findElementBy} from "../utils";
+import { By } from "selenium-webdriver";
+import { findElementBy } from "../utils";
 
 class SeleniumPage {
 

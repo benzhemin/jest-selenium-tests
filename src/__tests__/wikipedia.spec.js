@@ -1,5 +1,5 @@
-import {afterAll, beforeAll, describe, expect, test} from "@jest/globals";
-import {driver} from "../driver-factory";
+import { afterAll, beforeAll, describe, expect, test } from "@jest/globals";
+import { driver } from "../driver-factory";
 import HomePage from "../__pageobjects__/homepage";
 import SeleniumPage from "../__pageobjects__/seleniumpage";
 

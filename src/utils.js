@@ -1,5 +1,5 @@
-import {driver} from "./driver-factory";
-import {until} from "selenium-webdriver";
+import { driver } from "./driver-factory";
+import { until } from "selenium-webdriver";
 
 export const findElementBy = (locator) => {
     const webElement = driver.wait(until.elementLocated(locator), 20000);

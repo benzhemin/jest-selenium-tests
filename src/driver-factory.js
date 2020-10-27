@@ -1,5 +1,5 @@
-import {Builder} from "selenium-webdriver";
-import {Browser, PageLoadStrategy} from "selenium-webdriver/lib/capabilities";
+import { Builder } from "selenium-webdriver";
+import { Browser, PageLoadStrategy } from "selenium-webdriver/lib/capabilities";
 import chrome from "selenium-webdriver/chrome";
 import 'chromedriver';
 

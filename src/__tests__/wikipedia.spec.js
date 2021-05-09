@@ -18,6 +18,6 @@ describe('Selenium wiki page', () => {
         expect(await SeleniumPage.getHeadingText()).toEqual('Selenium (software)');
     });
     test('contains the correct repository URL', async () => {
-        expect(await SeleniumPage.getRepositoryUrlText()).toEqual('github.com/SeleniumHQ/selenium');
+        expect(await SeleniumPage.getRepositoryUrlText()).toEqual('github.com/SeleniumHQ/');
     });
 });
